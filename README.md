@@ -12,5 +12,7 @@ ___
 ___
 
 - ` angular.js:13642Error: [$compile:tpload] Failed to load template:  `
+
 > solution:  forgot to change `templateUrl` to `template` in the directive
+
 ___
