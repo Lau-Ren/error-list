@@ -13,6 +13,10 @@ Errors and messages seen in console, and their solutions
 
 - ` angular.js:13642Error: [$compile:tpload] Failed to load template:  `
 
-> forgot to change `templateUrl` to `template` in the directive
+    > forgot to change `templateUrl` to `template` in the directive
+
+- ` Uncaught Error: [$injector:modulerr] Failed to instantiate module demoApp due to:
+  Error: [$injector:modulerr] Failed to instantiate module {} due to:
+  Error: [ng:areq] Argument 'module' is not a function, got Object `
 
 
