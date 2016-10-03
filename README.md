@@ -22,5 +22,6 @@ Errors and messages seen in console, and their solutions
   
   
 - ` angular.js:13642Error: [$injector:unpr] Unknown provider: vizUiDataGridTemplateServiceProvider <- vizUiDataGridTemplateService <- vizUiDataGridController `
+    > forgot to add the template.service script to module script
 
 
