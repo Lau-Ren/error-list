@@ -1,7 +1,11 @@
 # error-list
 Errors and messages seen in console, and their solutions
 
+## Webpack build
 
+- `WARNING in viz.ui.tags.min.js from UglifyJs
+   Dropping unused function ...`
+   > havent added 3rd part library that is being imported to the `external` property in my webpack.dist file
 ## Angular / webpack
 
 - ` [HMR] Cannot apply update. Need to do a full reload! `
