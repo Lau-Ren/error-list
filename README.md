@@ -36,5 +36,12 @@ Errors and messages seen in console, and their solutions
             jQuery: "jquery",
             'window.jQuery': "jquery"
         })
-      ` in the webpack.make
+      ` in the webpack.make\
+      
+- ` Argument 'fn' is not a function, got string `
+
+      > `.config() and/or `.run()` were named
+       ie config('appAppConfig', appAppConfig) 
+       
+      They expect a single argument only, function or array, and shouldn't be named
 
