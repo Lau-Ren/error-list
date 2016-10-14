@@ -8,6 +8,24 @@ Errors and messages seen in console, and their solutions
    
    > havent added 3rd part library that is being imported to the `external` property in my webpack.dist file
    
+# Karma / Webpack
+- `ERROR [karma]: { [Error: no such file or directory]
+     code: 'ENOENT',
+     errno: 34,
+     message: 'no such file or directory',
+     path: '/_karma_webpack_/views/Foo/Foo.js' }
+   Error: no such file or directory
+   `
+   
+   > needed to get out of the karma_webpack folder
+   ie
+   ` 
+      preprocessors: {
+     '../**/test/*Test.js': ['webpack'],
+     '../**/Foo.js': ['webpack', 'coverage'],
+   },
+   `
+   
 ## Angular / webpack
 
 - ` [HMR] Cannot apply update. Need to do a full reload! `
