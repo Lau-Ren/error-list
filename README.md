@@ -18,7 +18,9 @@ Errors and messages seen in console, and their solutions
    `
    
    > needed to get out of the karma_webpack folder
+   
    ie
+   
    ` 
       preprocessors: {
      '../**/test/*Test.js': ['webpack'],
