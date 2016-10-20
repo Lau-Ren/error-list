@@ -68,16 +68,13 @@ Errors and messages seen in console, and their solutions
 
 ## NPM / Node
 
-- `
-   npm ERR! Windows_NT 6.1.7601
+- ` npm ERR! Windows_NT 6.1.7601
    npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--verbose"
    npm ERR! node v5.10.0
    npm ERR! npm  v3.8.3
    npm ERR! code EREADFILE
 
-   npm ERR! Error extracting C:\Users\collsl\AppData\Roaming\npm-cache\fs\0.0.0\package.tgz archive: ENOENT: no such file or directory, open 'C:\Users\collsl\AppData\Roaming\npm-cache\fs\0.0.0\package.tgz'
-   
-   `
+   npm ERR! Error extracting C:\Users\collsl\AppData\Roaming\npm-cache\fs\0.0.0\package.tgz archive: ENOENT: no such file or directory, open 'C:\Users\collsl\AppData\Roaming\npm-cache\fs\0.0.0\package.tgz' `
    
    >problem with fs version specified in the package.json -> 0.0.0 wasn't available but 0.0.2 was
    > solution: update version specified in package form * to 0.0.2
