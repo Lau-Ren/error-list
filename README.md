@@ -27,7 +27,16 @@ Errors and messages seen in console, and their solutions
      '../**/Foo.js': ['webpack', 'coverage'],
    },
    `
+
+- `
+   PhantomJS 2.1.1 (Windows 7 0.0.0) ERROR
+     ReferenceError: Can't find variable: require
+     at C:/Users/collsl/LaurenProjects/Storm/viz-ui-select/tests.webpack.js:5
+   `
    
+   > karma/webpack deps werent installed
+
+
 ## Angular
 
 - view template not rendering
