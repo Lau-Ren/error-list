@@ -28,6 +28,11 @@ Errors and messages seen in console, and their solutions
    },
    `
    
+## Angular
+
+- view template not rendering
+   > check component or directive name matches the normalised html el name (ie uiSelect -> `<ui-select></ui-select>` 
+   
 ## Angular / webpack
 
 - ` [HMR] Cannot apply update. Need to do a full reload! `
