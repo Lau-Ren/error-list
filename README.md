@@ -3,6 +3,7 @@ Errors and messages seen in console, and their solutions
 ## Kendo Grid
 
 - cannot toggle group collapse/expand
+
    > I was using the kendo directive and trying to initialise with jquery
    > class name interefed
    
