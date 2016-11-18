@@ -1,6 +1,12 @@
 # error-list
 Errors and messages seen in console, and their solutions
+## Kendo Grid
 
+- cannot toggle group collapse/expand
+   > I was using the kendo directive and trying to initialise with jquery
+   > class name interefed
+   
+   
 ## Webpack build
 
 - `WARNING in viz.ui.tags.min.js from UglifyJs
@@ -8,7 +14,7 @@ Errors and messages seen in console, and their solutions
    
    > havent added 3rd part library that is being imported to the `external` property in my webpack.dist file
    
-# Karma / Webpack
+## Karma / Webpack
 - `ERROR [karma]: { [Error: no such file or directory]
      code: 'ENOENT',
      errno: 34,
