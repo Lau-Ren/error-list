@@ -7,6 +7,10 @@ Errors and messages seen in console, and their solutions
    > I was using the kendo directive and trying to initialise with jquery
    > class name interefed
    
+- update requests after incell changes were trying to update with the old value, not the new changed value.
+
+   > the saveChanges() method on grid cannot be called within the save event function, i think it triggers before the actual dataitem is        updated, even if it is changed in cell.
+   
    
 ## Webpack build
 
