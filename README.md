@@ -13,7 +13,15 @@ Errors and messages seen in console, and their solutions
    
    
 ## Webpack build
+- Long builds
 
+   > use    
+   ```
+   "css-loader": "0.14.5",
+   "postcss-discard-duplicates": "2.0.2"
+   ```
+   
+   
 - `WARNING in viz.ui.tags.min.js from UglifyJs
    Dropping unused function ...`
    
