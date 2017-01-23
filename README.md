@@ -13,6 +13,15 @@ Errors and messages seen in console, and their solutions
    
    
 ## Webpack build
+-  path is not a string. 
+   This was a webpack error but did not break build
+   Same msg was output to the build index.html
+   
+   > upgraded to:
+   ```
+         "html-webpack-plugin": "2.16.0"
+   ```
+
 - Long builds
 
    > use    
