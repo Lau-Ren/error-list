@@ -11,6 +11,14 @@ Errors and messages seen in console, and their solutions
 
    > the saveChanges() method on grid cannot be called within the save event function, i think it triggers before the actual dataitem is        updated, even if it is changed in cell.
    
+## webpack-dev-server/keycloak (?) issues 
+- 413 Request Entity Too Large
+   
+   > change entry from keycloak to demo
+   ```var entry = DIST ? './standalone/viz.ui.builder.js' :'./demo/key-cloak.bootstrap.js';```
+   TO
+   ```var entry = DIST ? './standalone/viz.ui.builder.js' :'./demo/demo.js';```
+   
    
 ## Webpack build
 -  path is not a string. 
