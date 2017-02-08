@@ -12,6 +12,7 @@ Errors and messages seen in console, and their solutions
    > the saveChanges() method on grid cannot be called within the save event function, i think it triggers before the actual dataitem is        updated, even if it is changed in cell.
    
 ## webpack-dev-server/keycloak (?) issues 
+
 - 413 Request Entity Too Large
    
    > change entry from keycloak to demo
@@ -21,6 +22,11 @@ Errors and messages seen in console, and their solutions
    
    
 ## Webpack build
+
+- outputs a zillion files i.e. images files
+
+   > check externals prop includes all third party libs.
+
 -  path is not a string. 
    This was a webpack error but did not break build
    Same msg was output to the build index.html
@@ -45,6 +51,7 @@ Errors and messages seen in console, and their solutions
    > havent added 3rd part library that is being imported to the `external` property in my webpack.dist file
    
 ## Karma / Webpack
+
 - `ERROR [karma]: { [Error: no such file or directory]
      code: 'ENOENT',
      errno: 34,
