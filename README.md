@@ -82,6 +82,20 @@ Errors and messages seen in console, and their solutions
 
 ## Angular
 
+- Could'nt pass a value to a directive with $scope
+   
+   > the variable name was camelCase so the variable name in the view where the directive was being used needed to have '-'s
+      e.g.
+      ``` return {
+        scope: {
+            datasetMetas: '=',
+            settings: '=',
+            datasets: '='
+        },
+        ...```
+        -> `< my-directive settings=vm.settings dataset-metas= ...`
+        
+
 - view template not rendering
    
    > check component or directive name matches the normalised html el name (ie uiSelect -> `<ui-select></ui-select>` 
