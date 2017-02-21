@@ -140,6 +140,10 @@ Errors and messages seen in console, and their solutions
 
 ## NPM / Node
 
+- `npm ERR! code 1 ` on `npm install` , no error message
+
+   > deleting scoped packages and reinstalling seems to sometimes fix this error
+
 - `
    npm ERR! Windows_NT 6.1.7601
    npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--verbose"
