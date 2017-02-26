@@ -1,5 +1,7 @@
 # error-list
 Errors and messages seen in console, and their solutions
+
+
 ## Kendo Grid
 
 - cannot toggle group collapse/expand
@@ -93,7 +95,8 @@ Errors and messages seen in console, and their solutions
             datasets: '='
         },
         ...```
-        -> `< my-directive settings=vm.settings dataset-metas= ...`
+       
+       ```< my-directive settings=vm.settings dataset-metas= ...```
         
 
 - view template not rendering
@@ -139,6 +142,12 @@ Errors and messages seen in console, and their solutions
 
 
 ## NPM / Node
+
+
+- `/c/Users/collsl/AppData/Roaming/npm/log-error: line 1: /node_modules/log-error/app/index.js: No such file or directory` error after trying to npm install -g a node script
+   > needed to have `#!/usr/bin/env node` at the top of my script
+   > see `http://stackoverflow.com/questions/33509816/what-exactly-does-usr-bin-env-node-do-at-the-beginning-of-node-files`
+
 
 - `npm ERR! code 1 ` on `npm install` , no error message
 
