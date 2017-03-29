@@ -120,7 +120,7 @@ Errors and messages seen in console, and their solutions
       Error: [$injector:modulerr] Failed to instantiate module {} due to:
       Error: [ng:areq] Argument 'module' is not a function, got Object 
    `
-  
+  > demo module was not exported for the keycloak config
   
 - ` angular.js:13642Error: [$injector:unpr] Unknown provider: vizUiDataGridTemplateServiceProvider <- vizUiDataGridTemplateService <-       vizUiDataGridController `
     > forgot to add the template.service script to module script
