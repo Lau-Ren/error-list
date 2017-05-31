@@ -141,7 +141,16 @@ Errors and messages seen in console, and their solutions
       They expect a single argument only, function or array, and shouldn't be named
 
 
+
 ## NPM / Node
+- ` (node) warning: possible EventEmitter memory leak detected. 11 listeners added. Use emitter.setMaxListeners() to increase limit. `
+   > needed to destroy listeners ie 
+      ```
+          $scope.$on('$destroy', () => {
+              vizServicesObserverService.removeListener('FORM_SETTINGS_RECALCULATED:' + exVm.formId, recalcVm);
+          });
+
+      ```
 
 
 - `/c/Users/collsl/AppData/Roaming/npm/log-error: line 1: /node_modules/log-error/app/index.js: No such file or directory` error after trying to npm install -g a node script
@@ -167,3 +176,7 @@ Errors and messages seen in console, and their solutions
    > Problem with fs version specified in the package.json -> 0.0.0 wasn't available but 0.0.2 was
    
    > solution: update version specified in package form * to 0.0.2
+   
+   
+## Other
+
