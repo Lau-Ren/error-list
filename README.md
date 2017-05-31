@@ -135,11 +135,10 @@ Errors and messages seen in console, and their solutions
       
 - ` Argument 'fn' is not a function, got string `
 
-      > `.config() and/or `.run()` were named
-       ie config('appAppConfig', appAppConfig) 
+      > ` .config()` and/or `.run()` were named
+       ie `config('appAppConfig', appAppConfig)` 
        
       They expect a single argument only, function or array, and shouldn't be named
-
 
 
 ## NPM / Node
